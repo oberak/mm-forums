@@ -2,10 +2,18 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <% include ./partials/head.ejs %>
+
+    </head>
+    <body>
+        <% include ./partials/nav.ejs %>
+        <div class="container">
+            <div class="form-header">
+                <h1 class="form-title">Title</h1>
+                <p class="form-title-meta">Bootstrap is the most popular HTML, CSS...</p>
+            </div>
+        </div>
+
+        <% include ./partials/footer.ejs %>
+    </body>
 </html>

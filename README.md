@@ -2,7 +2,7 @@
 
 ## Generate express project
 ```
-/> npm install -g express-generator
+/> npm install -g express-generator nodemon
 /> express --view=ejs mm-forums
 /> cd mm-forums
 /mm-forums/> npm install
